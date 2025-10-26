@@ -25,6 +25,20 @@ Configure your local repo to use rebase:
 git config pull.rebase true
 ```
 
+### Administrator Privileges
+
+Administrators have special capabilities to keep development moving:
+
+- **Cannot** push directly to `main` (branch protection prevents this)
+- **Can** approve and merge their own PRs using the "bypass rules" option
+- Should use bypass sparingly - only when working solo or in urgent situations
+
+When merging your own PR as an administrator, you'll see this option:
+
+![Admin bypass merge option](docs/images/pr-merge-bypass-rules.png)
+
+Check the "Merge without waiting for requirements to be met (bypass rules)" box to proceed.
+
 ### Workflow
 
 1. Create an issue describing the work
@@ -32,5 +46,5 @@ git config pull.rebase true
 3. Make your changes and commit locally
 4. Push the branch to remote
 5. Create a pull request referencing the issue
-6. Wait for review and approval
+6. Wait for review and approval (or use admin bypass if working solo)
 7. Merge using rebase or squash as appropriate
