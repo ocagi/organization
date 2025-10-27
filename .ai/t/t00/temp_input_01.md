@@ -47,5 +47,6 @@ When all is set, after human pre-commit check, we can commit and push.
 
 # Requirement 6
 We need to setup spaces for discussion. I would like to setup github discussions and a discord server. 
-Please, open a new issue in the repository. Scope of the issue is to write an output documents in .at/t/t00. 
-The documentr should explain how to create github discussions and how to create a discord server to host community interaction.
+Please, open a new issue in the repository. Scope of the issue is to write an output documents in .at/t/t00 : [setup_community_discussions.md](setup_community_discussions.md)
+The document should explain how to create github discussions and how to create a discord server to host community interaction.
+Once the document is created, an human will complete the setup by enabling the [GitHub Discussion](https://github.com/ocagi/organization/discussions)
