@@ -43,4 +43,9 @@ When done, commit and push. Review and merge to main will be done by humans.
 
 We need to add an initial readme, and the first works about license, and code of conduct. For this we need to create a new issue, and a new branch for that. The issue will be completed by a different agent: CC2 (Claude Code on Cursor)
 SA will perform a pre-commit review, and if changes are suggested/ needed, then an interactive session with the human operator should be done. 
-When all is set, we can commit and push. 
+When all is set, after human pre-commit check, we can commit and push. 
+
+# Requirement 6
+We need to setup spaces for discussion. I would like to setup github discussions and a discord server. 
+Please, open a new issue in the repository. Scope of the issue is to write an output documents in .at/t/t00. 
+The documentr should explain how to create github discussions and how to create a discord server to host community interaction.
